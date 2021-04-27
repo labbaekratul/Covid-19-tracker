@@ -1,0 +1,64 @@
+.mapAndchart {
+  margin-top: 100px;
+  margin-bottom: 100px;
+}
+
+.mapAndchart__map {
+  background: whitesmoke;
+  border-radius: 10px;
+  
+}
+
+.scroll_area {
+  height: 500px;
+  overflow-y: scroll;
+}
+
+.scroll_area::-webkit-scrollbar {
+  width: 7px;
+  background-color: rgb(151, 141, 141);
+}
+
+.scroll_area::-webkit-scrollbar-thumb {
+  background-color: rgb(55, 51, 51);
+  border-radius: 5px;
+}
+
+.char__heading {
+  text-align: center;
+  margin-bottom: 10px;
+  background-color: rgb(228, 223, 223);
+  padding: 3px 0;
+  font-weight: 400;
+}
+
+.chard_heading {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 10px;
+}
+
+.chard_heading > p {
+  font-size: 20px;
+  font-weight: 700;
+}
+
+.mapAndchart__countryNchart {
+  display: flex;
+  justify-content: space-between;
+  padding-bottom: 5px;
+  background: whitesmoke;
+  margin-bottom: 8px;
+}
+
+.mapAndchart__cases {
+  margin-right: 5px;
+}
+
+.mapAndchart__country {
+  margin-left: 5px;
+}
+
+/* .leaflet-pane > img {
+  visibility: hidden;
+} */

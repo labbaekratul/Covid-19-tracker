@@ -1,0 +1,51 @@
+/* .map {
+  display: grid;
+  justify-content: center;
+  align-items: center;
+} */
+
+.map_box {
+  height: 575px;
+  background-color: whitesmoke;
+  border-radius: 5px;
+  margin-top: 16px;
+}
+
+.leaflet-container {
+  height: 100%;
+ 
+  
+}
+
+
+
+.map__info {
+  font-size: 9px;
+}
+
+.map__flag {
+  width: 60px;
+  display: block;
+  border-radius: 5px;
+}
+
+
+.bc__img{
+  width: 100px;
+  border-radius: 5px;
+  -webkit-box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.78); 
+box-shadow: 5px 5px 15px 5px rgba(0,0,0,0.78);
+margin-bottom: 5px;
+}
+
+.popup__country{
+   font-size: 16px;
+   font-weight: bolder;
+  }
+
+
+@media (max-width : 770px){
+  .mapAndchart__map{
+    margin-bottom: 100px;
+  }
+}
